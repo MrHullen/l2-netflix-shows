@@ -7,7 +7,7 @@
 		"start": "not-svelte-kit start"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.2",
 		"@sveltejs/kit": "next",
 		"@sveltejs/snowpack-config": "next",
 		"not-svelte-kit": "0.0.7-next.34",
