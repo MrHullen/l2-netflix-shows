@@ -2,15 +2,14 @@
 	"name": "netflix-shows",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "not-svelte-kit dev",
-		"build": "not-svelte-kit build",
-		"start": "not-svelte-kit start"
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@sveltejs/snowpack-config": "next",
-		"not-svelte-kit": "0.0.7-next.34",
 		"svelte": "^3.29.0"
 	},
 	"type": "module"
